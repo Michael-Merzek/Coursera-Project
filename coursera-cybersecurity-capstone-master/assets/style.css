@@ -7,16 +7,16 @@
 }
 body
 {
-	background:#000000;
+	background:#10b957;
 	padding-left:10%;
 	padding-right:10%;
-	font-family:Arial, Geneva, sans-serif;
+	font-family:Arial Rounded MT Bold, Geneva, sans-serif;
     color:#FFFFFF;
 }
 
 /* unvisited link */
 a:link {
-  color: red;
+  color: rgb(210, 231, 21);
 }
 
 /* visited link */
