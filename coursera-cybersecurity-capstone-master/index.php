@@ -16,7 +16,7 @@ include('config.php');
 //We display a welcome message and, if the user is logged in, we display the username
 ?>
 
-Hello
+Hi Dear,
 <membername>
 <?php
 if(isset($_SESSION['username'])) {
@@ -25,7 +25,7 @@ if(isset($_SESSION['username'])) {
 </membername>!
 
 <br />
-Welcome on our very secure, much safe, so fancy messaging system.<br /><br />
+Welcome to our secure messaging system.<br /><br />
 <?php
 //If the user is logged in, we display links to see the list of users, his/her pms and a link to log out
 if (isset($_SESSION['username'])) {
