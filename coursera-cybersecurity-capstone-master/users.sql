@@ -9,5 +9,4 @@ CREATE TABLE `users` (
 	`salt` varchar(255) NOT NULL,
 	`email` varchar(255) NOT NULL,
 	PRIMARY KEY (`id`),
-	UNIQUE (`username`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+	UNIQUE (`usernam
